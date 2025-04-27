@@ -7,6 +7,7 @@ For more information, see https://docs.djangoproject.com/en/5.1/topics/settings/
 from datetime import timedelta
 from pathlib import Path
 from decouple import config
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,6 +33,7 @@ INSTALLED_APPS = [
     'contact',
     'book',
     'accounts.apps.AccountsConfig',  # Use explicit app config
+    'profiles.apps.ProfilesConfig',
 ]
 
 MIDDLEWARE = [
@@ -184,3 +186,13 @@ LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
+
+LANGUAGES = [
+    ('en', 'English'),
+    ('uz', 'Uzbek'),
+    ('ru', 'Russian'),
+]
+LANGUAGE_CODE = 'en'
+USE_I18N = True
+USE_L10N = True
+USE_TZ = True
