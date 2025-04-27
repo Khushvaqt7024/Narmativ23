@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'book',
     'accounts.apps.AccountsConfig',  # Use explicit app config
     'profiles.apps.ProfilesConfig',
+    'files.apps.FilesConfig',
 ]
 
 MIDDLEWARE = [

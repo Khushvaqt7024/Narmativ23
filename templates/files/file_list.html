@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fayl ro‘yxati</title>
+</head>
+<body>
+    <h1>Sizning fayllaringiz</h1>
+    <a href="{% url 'file_upload' %}">Yangi fayl yuklash</a>
+    <ul>
+        {% for file in files %}
+            <li>
+                {{ file.title }} - <a href="{{ file.file.url }}">Yuklab olish</a>
+                <a href="{% url 'file_delete' file.pk %}">O‘chirish</a>
+            </li>
+        {% empty %}
+            <li>Fayllar mavjud emas</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

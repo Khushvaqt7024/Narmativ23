@@ -59,6 +59,10 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     path('admin/', admin.site.urls),
     path('', include('profiles.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('book/', include('book.urls')),
+    path('contact/', include('contact.urls')),
+    path('files/', include('files.urls')),
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

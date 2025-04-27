@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faylni o‘chirish</title>
+</head>
+<body>
+    <h1>"{{ object.title }}" faylini o‘chirishni tasdiqlang</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">O‘chirish</button>
+    </form>
+    <a href="{% url 'file_list' %}">Bekor qilish</a>
+</body>
+</html>

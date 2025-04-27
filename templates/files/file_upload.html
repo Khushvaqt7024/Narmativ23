@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fayl yuklash</title>
+</head>
+<body>
+    <h1>Yangi fayl yuklash</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Yuklash</button>
+    </form>
+    <a href="{% url 'file_list' %}">Orqaga</a>
+</body>
+</html>

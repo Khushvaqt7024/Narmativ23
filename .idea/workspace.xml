@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dae8369-f2ae-4880-b2b3-9cccc603cc40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/profiles/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profiles/profile_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/files/file_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/files/file_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/files/file_upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xah.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xah.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xah/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/xah/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xah/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/xah/urls.py" afterDir="false" />
     </list>
@@ -203,7 +202,7 @@
       <workItem from="1745739973082" duration="754000" />
       <workItem from="1745740748769" duration="5930000" />
       <workItem from="1745746776983" duration="5509000" />
-      <workItem from="1745752893726" duration="1035000" />
+      <workItem from="1745752893726" duration="3882000" />
     </task>
     <servers />
   </component>
